@@ -18,17 +18,164 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
+  <!--- source: https://www.w3schools.com/css/css_rwd_templates.asp -->
+  <link rel="stylesheet" href="css/taxtime-style.css">
 
   <link rel="manifest" href="site.webmanifest">
   <meta name="theme-color" content="#fafafa">
+  
+  
 </head>
 
-<body>
+<body class="ss-content" style="max-width:1300px">
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
-  <script src="js/vendor/modernizr-3.11.8.min.js"></script>
-  <script src="js/app.js"></script>
+<!-- First Grid: Logo & About -->
+<div class="ss-row">
+
+  <div class="ss-half ss-black ss-container ss-center" style="height:700px">
+    <div class="ss-padding-64">
+      <h1>My Logo</h1>
+    </div><!-- ss-padding-64 -->
+
+    <div class="ss-padding-64">
+      <a href="#" class="ss-button ss-black ss-block ss-hover-dark-grey ss-padding-16">Home</a>
+      <a href="#spreadsheet" class="ss-button ss-black ss-block ss-hover-pale-red ss-padding-16">Spreadsheet Tax Receipt Tracker</a>
+      <a href="#peedeef" class="ss-button ss-black ss-block ss-hover-pale-green ss-padding-16">Pdf Tax Receipt Tracker</a>
+      <a href="#contact" class="ss-button ss-black ss-block ss-hover-teal ss-padding-16">Contact</a>
+    </div><!-- ss-padding-64 -->
+   
+  </div><!-- .ss-half .ss-black .ss-container .ss-center -->
+
+  <div class="ss-half ss-lighter-grey ss-container" style="height:700px">
+
+    <div class="ss-padding-64 ss-center">
+      <h1>About Us</h1>
+      <div class="ss-left-align ss-padding-large">
+        <p>We make beautiful systems for small business problems so you can stress less and move more.</p>
+        <p>Have you ever noticed that your receipts are all over the place during tax time?</p>
+        <p>Are you a small business sole proprietorship or single member LLC who needs to complete a Schedule C?</p>
+        <p>Is tax time stressful because you don't have an easy recordkeeping system?</p>
+        <p>These are the trackers for you.</p>
+        <p><svg class="arrows">
+          <path class="a1" d="M0 0 L30 32 L60 0"></path>
+          <path class="a2" d="M0 20 L30 52 L60 20"></path>
+          <path class="a3" d="M0 40 L30 72 L60 40"></path>
+        </svg></p> 
+      </div><!-- .ss-left-align .ss-padding-large -->
+    </div><!-- .ss-padding-64 .ss-center -->
+
+  </div><!-- ss-half ss-light-grey ss-container -->
+</div><!-- ss-row -->
+
+<!-- Second Grid: Google Spreadsheet & Excel Spreadsheet -->
+<div class="ss-row">
+
+  <div class="ss-half ss-pale-red ss-center" style="min-height:800px" id="spreadsheet">
+    <div class="ss-padding-64">
+      <h2>Google Sheets Tax Deduction Receipt Tracker</h2>
+      <p>Easy to use expense receipt recordkeeping spreadsheet made to complement the US Tax Form 1040 Schedule C. It is ready to use, already contains the most common Schedule C categories and provides a central location to track expense receipts for small business owners.</p>
+    </div><!-- ss-padding-64 -->
+
+    <div class="ss-container ss-responsive">
+      <div class="youtube-video-container">
+        <iframe 
+          width="560" 
+          height="315" 
+          src="https://www.youtube-nocookie.com/embed/eJJTNtoMUOI" 
+          title="YouTube video player" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen>
+        </iframe>
+      </div>
+
+      <br>
+      <div class="ss-center">
+        <a href="https://www.etsy.com/listing/1197154877/easy-tax-deduction-receipt-tracker-for"><div class="ss-button ss-black">Buy now</div></a>
+      </div>
+      
+    </div><!-- ss-container ss-responsive -->
+
+    
+
+  </div><!-- ss-half ss-pale-red ss-center -->
+
+  <div class="ss-half ss-pale-yellow ss-container" style="min-height:800px">
+    <div class="ss-padding-64 ss-center">
+      <h2>Microsoft Excel Tax Deduction Receipt Tracker</h2>
+      <p>The same functionality of the Google Sheets spreadsheet, but now in Excel .xslx format!</p>
+    </div><!-- ss-padding-64 ss-center -->
+
+    <div class="ss-row">
+      <div class="ss-half">
+        <img src="./img/sapiostudio-1.jpg" style="width:100%">
+      </div>
+      <div class="ss-half">
+        <img src="./img/sapiostudio-2-2.jpg" style="width:100%">
+      </div>
+  </div>
+
+  <div class="ss-row ss-hide-small">
+    <div class="ss-half">
+      <img src="./img/sapiostudio-3.jpg" style="width:100%">
+    </div>
+    <div class="ss-half">
+      <img src="./img/sapiostudio-4.jpg" style="width:100%">
+    </div>
+  </div>
+
+  <br>
+    <div class="ss-center">
+      <a href="https://www.etsy.com/listing/1202499719/excel-easy-tax-deduction-receipt-tracker"><div class="ss-button ss-black">Buy now</div></a>
+    </div>
+
+  </div><!-- ss-half ss-pale-yellow ss-container -->
+
+</div><!-- ss-row -->
+
+<!-- Third Grid: Pdf & Contact -->
+<div class="ss-row" id="peedeef">
+
+  <div class="ss-half ss-pale-green ss-container ss-center" style="height:700px">
+    <div class="ss-padding-64">
+      <h1>Pdf Tax Deduction Receipt Tracker</h1>
+    </div>
+
+    <div class="ss-padding-64">
+      <p>Coming soon!</p>
+    </div>
+  </div><!-- ss-half ss-pale-green ss-container ss-center -->
+
+  <div class="ss-half ss-teal ss-container" style="height:700px" id="contact">
+
+    <div class="ss-padding-64 ss-padding-large">
+      <h1>Contact</h1>
+      <p class="ss-opacity">GET IN TOUCH</p>
+      <section class="ss-container ss-card ss-padding-32 ss-white" target="_blank">
+        <div class="ss-section">
+          <label>Email us!</label>
+          <p id="theEmail"></p>
+          <noscript>[Turn on JavaScript to see the email address]</noscript>
+        </div>
+        <div class="ss-section">
+          <label>Message us on Etsy (requires Etsy account):</label>
+          <a href="https://www.etsy.com/shop/sapiostudio"><button type="submit" class="ss-button ss-teal">Go to our Etsy shop</button></a>
+        </div>
+      </section>
+    </div><!-- ss-padding-64 ss-padding-large -->
+
+  </div><!-- ss-half ss-teal ss-container -->
+
+</div><!-- ss-row -->
+
+<!-- Footer -->
+<footer class="ss-container ss-black ss-padding-16">
+  <p>Copyright &copy; 2022 SapioStudio | All Rights Reserved</p>
+</footer>
+  
+  <script src="./js/vendor/modernizr-3.11.8.min.js"></script>
+  <script src="./js/app.js"></script>
+  
 
 </body>
 
