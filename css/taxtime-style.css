@@ -260,8 +260,11 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 
 /* | ---------------- BEGIN CUSTOM COLORS ---------------- */
 
-.ss-lighter-grey,.ss-hover-lighter-grey:hover,.ss-lighter-gray,.ss-hover-lighter-gray:hover{color:#000!important;background-color:#e5e5e5
-    !important}
+.ss-lighter-grey,.ss-hover-lighter-grey:hover{color:#000!important;background-color:#e5e5e5
+    !important;}
+
+
+.ss-brand-green, .ss-hover-brand-green:hover{color:#fff!important;background-color:#53c2c2!important;}
 
 /* | ---------------- END CUSTOM COLORS  ---------------- */
 
@@ -340,6 +343,12 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
   }
 
   /* END YouTube video responsive css*/
+
+  .ss-pale-red-to-yellow,.ss-hover-pale-red-to-yellow:hover{
+    color:#000!important;
+    background: rgb(255,221,221);
+    background: linear-gradient(90deg, rgba(255,221,221,1) 35%, rgba(255,255,204,1) 100%);
+  }
 
   
 
