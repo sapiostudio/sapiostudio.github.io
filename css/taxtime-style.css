@@ -23,35 +23,11 @@ legend{color:inherit;display:table;max-width:100%;padding:0;white-space:normal}t
 [type=search]{-webkit-appearance:textfield;outline-offset:-2px}
 [type=search]::-webkit-search-decoration{-webkit-appearance:none}
 ::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}
-/* End extract */
-
-/*BEGIN CUSTOM FONTS */
-@font-face {
-  font-family: 'arconregular';
-  src: url('./font/arcon-regular-webfont.woff2') format('woff2'),
-       url('./font/arcon-regular-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-
-}
-
-@font-face {
-  font-family: 'arconrounded-regular';
-  src: url('./font/arcon-rounded-regular-webfont.woff2') format('woff2'),
-       url('./font/arcon-rounded-regular-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-
-}
-/*END CUSTOM FONTS */
-
-
-/*html,body{font-family:Verdana,sans-serif;font-size:15px;line-height:1.5}html{overflow-x:hidden}*/
-html,body{font-family:'arconrounded-regular',Verdana,sans-serif;font-size:15px;line-height:1.5}html{overflow-x:hidden}
+/* End extract */ 
+html,body{font-family:Verdana,sans-serif;font-size:15px;line-height:1.5}html{overflow-x:hidden}
 h1{font-size:36px}h2{font-size:30px}h3{font-size:24px}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}
 .ss-serif{font-family:serif}.ss-sans-serif{font-family:sans-serif}.ss-cursive{font-family:cursive}.ss-monospace{font-family:monospace}
-/*h1,h2,h3,h4,h5,h6{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin:10px 0}.ss-wide{letter-spacing:4px}*/
-h1,h2,h3,h4,h5,h6{font-family:'arconregular',Arial,sans-serif;font-weight:400;margin:10px 0}.ss-wide{letter-spacing:4px}
+h1,h2,h3,h4,h5,h6{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin:10px 0}.ss-wide{letter-spacing:4px}
 hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .ss-image{max-width:100%;height:auto}img{vertical-align:middle}a{color:inherit}
 .ss-table,.ss-table-all{border-collapse:collapse;border-spacing:0;width:100%;display:table}.ss-table-all{border:1px solid #ccc}
