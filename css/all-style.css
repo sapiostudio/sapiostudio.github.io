@@ -80,7 +80,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .ss-col.l5{width:41.66666%}.ss-col.l6{width:49.99999%}.ss-col.l7{width:58.33333%}.ss-col.l8{width:66.66666%}
 .ss-col.l9{width:74.99999%}.ss-col.l10{width:83.33333%}.ss-col.l11{width:91.66666%}.ss-col.l12{width:99.99999%}}
 .ss-rest{overflow:hidden}.ss-stretch{margin-left:-16px;margin-right:-16px}
-.ss-content,.ss-auto{margin-left:auto;margin-right:auto}.ss-content{max-width:980px}.ss-auto{max-width:1140px}
+.ss-content,.ss-auto{margin-left:auto;margin-right:auto}.ss-content{max-width:700px}.ss-auto{max-width:1140px}
 .ss-cell-row{display:table;width:100%}.ss-cell{display:table-cell}
 .ss-cell-top{vertical-align:top}.ss-cell-middle{vertical-align:middle}.ss-cell-bottom{vertical-align:bottom}
 .ss-hide{display:none!important}.ss-show-block,.ss-show{display:block!important}.ss-show-inline-block{display:inline-block!important}
@@ -320,11 +320,29 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 
   /* END YouTube video responsive css*/
 
+  .ss-taxtime-background-color {
+    background-color: #5c2be2;
+  }
+
+  .ss-taxtime-text-color {
+    color: #5c2be2;
+    font-weight: 500;
+  }
+
+  /* BEGIN gradients */
   .ss-pale-red-to-yellow,.ss-hover-pale-red-to-yellow:hover{
     color:#000!important;
     background: rgb(255,221,221);
     background: linear-gradient(90deg, rgba(255,221,221,1) 35%, rgba(255,255,204,1) 100%);
   }
+
+  .ss-taxtime-background {
+    background-image: url(../img/black-wave-background.svg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+  }
+  /* END gradients */
 
   
 
